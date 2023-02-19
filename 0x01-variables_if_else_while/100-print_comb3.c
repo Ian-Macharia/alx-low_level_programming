@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (y = 0; y < 10; y++)
 		{
-			if (x != y)
+			if (x != y && x < y)
 			{
 				putchar('0' + x);
 				putchar('0' + y);
