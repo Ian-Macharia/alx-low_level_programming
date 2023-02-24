@@ -1,3 +1,11 @@
+#include "main.h"
+
+/**
+  * more_numbers - prints numbers
+  *
+  * Return: Printed numbers numbers
+  */
+
 void more_numbers(void)
 {
 	int i;
