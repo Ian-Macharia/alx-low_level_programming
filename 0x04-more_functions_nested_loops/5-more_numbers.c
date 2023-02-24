@@ -1,11 +1,3 @@
-#include "main.h"
-
-/**
-  * more_numbers - prints numbers
-  *
-  * Return: Printed numbers numbers
-  */
-
 void more_numbers(void)
 {
 	int i;
@@ -19,7 +11,7 @@ void more_numbers(void)
 			k = j;
 			if (j > 9)
 			{
-				_putchar(j + 39);
+				_putchar(49);
 				k = k - 10;
 			}
 			_putchar(k + 48);
